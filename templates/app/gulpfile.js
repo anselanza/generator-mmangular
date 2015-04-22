@@ -2,14 +2,15 @@
 'use strict';
 
 var gulp = require('gulp');
+var sass = require('gulp-sass');
 var karma = require('karma').server;
 var argv = require('yargs').argv;
 var $ = require('gulp-load-plugins')();
 
 gulp.task('styles', function() {
-  return gulp.src('app/styles/main.less')
+  return gulp.src('app/styles/main.scss')
     .pipe($.plumber())
-    .pipe($.less())
+    .pipe(sass())
     .pipe($.autoprefixer({browsers: ['last 1 version']}))
     .pipe(gulp.dest('.tmp/styles'));
 });
@@ -117,7 +118,7 @@ gulp.task('wiredep', function() {
     'angular-scenario'
   ];
 
-  gulp.src('app/styles/*.less')
+  gulp.src('app/styles/*.scss')
     .pipe(wiredep())
     .pipe(gulp.dest('app/styles'));
 
@@ -141,7 +142,7 @@ gulp.task('watch', ['connect'], function() {
     'app/images/**/*'
   ]).on('change', $.livereload.changed);
 
-  gulp.watch('app/styles/**/*.less', ['styles']);
+  gulp.watch('app/styles/**/*.scss', ['styles']);
   gulp.watch('bower.json', ['wiredep']);
 });
 

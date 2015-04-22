@@ -1,7 +1,7 @@
 {
   "name": "generator-yangular",
   "version": "0.2.1",
-  "description": "Yeoman generator for AngularJS with Gulp, Bootstrap and LESS",
+  "description": "Yeoman generator for AngularJS with Gulp, Bootstrap and Sass",
   "license": "MIT",
   "main": "generators/app/index.js",
   "repository": "loetjvr/generator-yangular",
@@ -28,7 +28,7 @@
     "angularjs",
     "gulp",
     "gulpjs",
-    "less",
+    "sass",
     "bootstrap"
   ],
   "dependencies": {
