@@ -1,14 +1,14 @@
 {
-  "name": "generator-yangular",
+  "name": "generator-mangular",
   "version": "0.2.1",
   "description": "Yeoman generator for AngularJS with Gulp, Bootstrap and Sass",
   "license": "MIT",
   "main": "generators/app/index.js",
   "repository": "loetjvr/generator-yangular",
   "author": {
-    "name": "Loet Jansen van Rensburg",
+    "name": "Loet Jansen van Rensburg, Stephen Buchanan",
     "email": "",
-    "url": "https://github.com/loetjvr"
+    "url": "https://github.com/anselanza"
   },
   "engines": {
     "node": ">=0.10.0"
