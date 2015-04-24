@@ -3,9 +3,9 @@
 
 ## Installation
 
-Install `yo`, `gulp`, `bower`, `generator-yangular`:
+Install `yo`, `gulp`, `bower`, `generator-mmangular`:
 ```
-npm install -g gulp bower yo generator-yangular
+npm install -g gulp bower yo generator-mmangular
 ```
 
 Make a new directory, and `cd` into it:
