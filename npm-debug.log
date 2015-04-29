@@ -1,0 +1,55 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'https://github.com/anselanza/generator-mmangular' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.30
+4 verbose cache add [ 'https://github.com/anselanza/generator-mmangular', null ]
+5 verbose cache add name=undefined spec="https://github.com/anselanza/generator-mmangular" args=["https://github.com/anselanza/generator-mmangular",null]
+6 verbose parsed url { protocol: 'https:',
+6 verbose parsed url   slashes: true,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: 'github.com',
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: 'github.com',
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '/anselanza/generator-mmangular',
+6 verbose parsed url   path: '/anselanza/generator-mmangular',
+6 verbose parsed url   href: 'https://github.com/anselanza/generator-mmangular' }
+7 silly lockFile 09470344-om-anselanza-generator-mmangular https://github.com/anselanza/generator-mmangular
+8 verbose lock https://github.com/anselanza/generator-mmangular /Users/henk/.npm/09470344-om-anselanza-generator-mmangular.lock
+9 verbose addRemoteTarball [ 'https://github.com/anselanza/generator-mmangular', null ]
+10 info retry fetch attempt 1 at 14:09:50
+11 verbose fetch to= /tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular
+12 http GET https://github.com/anselanza/generator-mmangular
+13 http 200 https://github.com/anselanza/generator-mmangular
+14 verbose tar unpack /tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular
+15 silly lockFile e882efcc-lanza-generator-mmangular-unpack tar:///tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular-unpack
+16 verbose lock tar:///tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular-unpack /Users/henk/.npm/e882efcc-lanza-generator-mmangular-unpack.lock
+17 silly lockFile ff7322da-om-anselanza-generator-mmangular tar:///tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular
+18 verbose lock tar:///tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular /Users/henk/.npm/ff7322da-om-anselanza-generator-mmangular.lock
+19 silly gunzTarPerm modes [ '755', '644' ]
+20 error not a package /tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular
+21 silly lockFile e882efcc-lanza-generator-mmangular-unpack tar:///tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular-unpack
+22 silly lockFile e882efcc-lanza-generator-mmangular-unpack tar:///tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular-unpack
+23 silly lockFile ff7322da-om-anselanza-generator-mmangular tar:///tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular
+24 silly lockFile ff7322da-om-anselanza-generator-mmangular tar:///tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular
+25 silly lockFile 09470344-om-anselanza-generator-mmangular https://github.com/anselanza/generator-mmangular
+26 silly lockFile 09470344-om-anselanza-generator-mmangular https://github.com/anselanza/generator-mmangular
+27 error Error: ENOENT, open '/tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular-unpack/package.json'
+28 error If you need help, you may report this *entire* log,
+28 error including the npm and node versions, at:
+28 error     <http://github.com/npm/npm/issues>
+29 error System Darwin 14.3.0
+30 error command "node" "/usr/local/bin/npm" "install" "-g" "https://github.com/anselanza/generator-mmangular"
+31 error cwd /Users/henk/repos/generator-mmangular
+32 error node -v v0.10.30
+33 error npm -v 1.4.21
+34 error path /tmp/npm-10071-i1jvNTOQ/github.com/anselanza/generator-mmangular-unpack/package.json
+35 error code ENOENT
+36 error errno 34
+37 verbose exit [ 34, true ]
