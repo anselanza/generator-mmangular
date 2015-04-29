@@ -15,7 +15,7 @@ mkdir my-new-project && cd my-new-project
 
 Run `yo yangular`, optionally passing an app name:
 ```
-yo yangular [app-name]
+yo mmangular [app-name]
 ```
 
 ## Gulpfile
@@ -44,35 +44,35 @@ gulp docs
 
 Available generators:
 ```bash
-yo yangular:view name
+yo mmangular:view name
 ```
 
 ```bash
-yo yangular:controller name
+yo mmangular:controller name
 ```
 
 ```bash
-yo yangular:route name
+yo mmangular:route name
 ```
 
 ```bash
-yo yangular:directive name
+yo mmangular:directive name
 ```
 
 ```bash
-yo yangular:filter name
+yo mmangular:filter name
 ```
 
 ```bash
-yo yangular:service name
+yo mmangular:service name
 ```
 
 ```bash
-yo yangular:factory name
+yo mmangular:factory name
 ```
 
 ```bash
-yo yangular:constant name
+yo mmangular:constant name
 ```
 
 ## Editor Plugins
