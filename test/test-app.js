@@ -5,7 +5,7 @@ var assert = require('yeoman-generator').assert;
 var helpers = require('yeoman-generator').test;
 var os = require('os');
 
-describe('yangular:app', function() {
+describe('mmangular:app', function() {
   before(function(done) {
     helpers.run(path.join(__dirname, '../generators/app'))
       .inDir(path.join(os.tmpdir(), './temp-test'))
@@ -47,7 +47,7 @@ describe('yangular:app', function() {
   });
 });
 
-describe('yangular:constant', function() {
+describe('mmangular:constant', function() {
   before(function(done) {
     helpers.run(path.join(__dirname, '../generators/constant'))
       .inDir(path.join(os.tmpdir(), './temp-test'))
@@ -64,7 +64,7 @@ describe('yangular:constant', function() {
   });
 });
 
-describe('yangular:controller', function() {
+describe('mmangular:controller', function() {
   before(function(done) {
     helpers.run(path.join(__dirname, '../generators/controller'))
       .inDir(path.join(os.tmpdir(), './temp-test'))
@@ -81,7 +81,7 @@ describe('yangular:controller', function() {
   });
 });
 
-describe('yangular:directive', function() {
+describe('mmangular:directive', function() {
   before(function(done) {
     helpers.run(path.join(__dirname, '../generators/directive'))
       .inDir(path.join(os.tmpdir(), './temp-test'))
@@ -98,7 +98,7 @@ describe('yangular:directive', function() {
   });
 });
 
-describe('yangular:factory', function() {
+describe('mmangular:factory', function() {
   before(function(done) {
     helpers.run(path.join(__dirname, '../generators/factory'))
       .inDir(path.join(os.tmpdir(), './temp-test'))
@@ -115,7 +115,7 @@ describe('yangular:factory', function() {
   });
 });
 
-describe('yangular:filter', function() {
+describe('mmangular:filter', function() {
   before(function(done) {
     helpers.run(path.join(__dirname, '../generators/filter'))
       .inDir(path.join(os.tmpdir(), './temp-test'))
@@ -133,11 +133,11 @@ describe('yangular:filter', function() {
 });
 
 // need mock for app script wiring
-// describe('yangular:route', function() {
+// describe('mmangular:route', function() {
 //   before(function(done) {
 //     var deps = [
-//       [helpers.createDummyGenerator(), 'yangular:view'],
-//       [helpers.createDummyGenerator(), 'yangular:controller']
+//       [helpers.createDummyGenerator(), 'mmangular:view'],
+//       [helpers.createDummyGenerator(), 'mmangular:controller']
 //     ];
 
 //     helpers.run(path.join(__dirname, '../generators/route'))
@@ -153,7 +153,7 @@ describe('yangular:filter', function() {
 //   });
 // });
 
-describe('yangular:service', function() {
+describe('mmangular:service', function() {
   before(function(done) {
     helpers.run(path.join(__dirname, '../generators/service'))
       .inDir(path.join(os.tmpdir(), './temp-test'))
@@ -170,7 +170,7 @@ describe('yangular:service', function() {
   });
 });
 
-describe('yangular:view', function() {
+describe('mmangular:view', function() {
   before(function(done) {
     helpers.run(path.join(__dirname, '../generators/view'))
       .inDir(path.join(os.tmpdir(), './temp-test'))
