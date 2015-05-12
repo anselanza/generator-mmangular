@@ -14,6 +14,7 @@ module.exports = yeoman.generators.Base.extend({
 
     this.config.set('scriptsDir', 'app/scripts/');
     this.config.set('viewsDir', 'app/views/');
+    console.log('init done');
   },
   writing: {
     files: function() {
